@@ -1,0 +1,131 @@
+
+This file contains assignments and other information related to the AID used by OpenJavaCard.
+
+Use of this AID has been kindly provided by signal interrupt.
+
+Chain of Authority
+------------------
+
+D276                   - Bundesrepublik Deutschland (DIN e.V. / Fraunhofer SIT)
+D276000177             - signal interrupt
+
+D276000177 0_          - Reserved for company (signal interrupt)
+D276000177 01          - signal interrupt (applications)
+D276000177 02          - signal interrupt (install packages)
+D276000177 03          - signal interrupt (library packages)
+D276000177 04          - signal interrupt (security domains)
+
+D276000177 1_          - Reserved for partners (signal interrupt)
+D276000177 10          - OpenJavaCard
+
+OpenJavaCard Assignments
+------------------------
+
+D276000177 10 01       - OpenJavaCard Applications
+D276000177 10 0110     - OpenJavaCard Libraries
+D276000177 10 011001   - OpenJavaCard Libraries (Demo applet)
+D276000177 10 011020   - OpenJavaCard Libraries (Debug service)
+D276000177 10 011021   - OpenJavaCard Libraries (Random service)
+D276000177 10 0112     - OpenJavaCard CoAP
+
+D276000177 10 02       - OpenJavaCard Install Packages
+D276000177 10 0210     - OpenJavaCard Libraries
+D276000177 10 021001   - OpenJavaCard Libraries (Demo applet)
+D276000177 10 021020   - OpenJavaCard Libraries (Debug service)
+D276000177 10 021021   - OpenJavaCard Libraries (Random service)
+D276000177 10 0211     - OpenJavaCard NDEF
+D276000177 10 021101   - OpenJavaCard NDEF (full applet)
+D276000177 10 021102   - OpenJavaCard NDEF (stub applet)
+D276000177 10 021103   - OpenJavaCard NDEF (tiny applet)
+D276000177 10 021111   - OpenJavaCard NDEF (full applet, proguard)
+D276000177 10 021112   - OpenJavaCard NDEF (stub applet, proguard)
+D276000177 10 021113   - OpenJavaCard NDEF (tiny applet, proguard)
+D276000177 10 0212     - OpenJavaCard CoAP
+D276000177 10 021201   - OpenJavaCard CoAP Server (tiny)
+D276000177 10 0220     - OpenJavaCard YKNeo OpenPGP
+D276000177 10 022001   - OpenJavaCard YKNeo OpenPGP (standard)
+D276000177 10 0221     - OpenJavaCard YKNeo OATH
+D276000177 10 022101   - OpenJavaCard YKNeo OATH (standard)
+D276000177 10 0222     - OpenJavaCard IsoApplet
+D276000177 10 022201   - OpenJavaCard IsoApplet (standard)
+D276000177 10 0223     - OpenJavaCard SmartPGP
+D276000177 10 022301   - OpenJavaCard SmartPGP (standard)
+
+D276000177 10 03       - OpenJavaCard Library Packages
+D276000177 10 0310     - OpenJavaCard Libraries
+D276000177 10 031001   - OpenJavaCard Libraries (BER processing)
+D276000177 10 031002   - OpenJavaCard Libraries (String processing)
+D276000177 10 031003   - OpenJavaCard Libraries (Fortuna PRNG)
+D276000177 10 031004   - OpenJavaCard Libraries (RSA extensions)
+D276000177 10 031005   - OpenJavaCard Libraries (Debug utilities)
+D276000177 10 031006   - OpenJavaCard Libraries (Auth framework)
+D276000177 10 031007   - OpenJavaCard Libraries (Password functions)
+D276000177 10 031008   - OpenJavaCard Libraries (CBOR processing)
+D276000177 10 0311     - OpenJavaCard NDEF
+D276000177 10 031101   - OpenJavaCard NDEF (generator library)
+D276000177 10 0312     - OpenJavaCard CoAP
+D276000177 10 031201   - OpenJavaCard CoAP (Core library)
+D276000177 10 031202   - OpenJavaCard CoAP (Server library)
+
+D276000177 10 04       - OpenJavaCard Security Domains
+
+D276000177 2_          - public registry by signal interrupt
+D276000177 20          - public registry block 20 (signal interrupt)
+D276000177 21          - public registry block 21 (signal interrupt)
+D276000177 22          - public registry block 22 (signal interrupt)
+D276000177 23          - public registry block 23 (signal interrupt)
+D276000177 24          - public registry block 24 (signal interrupt)
+D276000177 25          - public registry block 25 (signal interrupt)
+D276000177 26          - public registry block 26 (signal interrupt)
+D276000177 27          - public registry block 27 (signal interrupt)
+D276000177 28          - public registry block 28 (signal interrupt)
+D276000177 29          - public registry block 29 (signal interrupt)
+D276000177 2A          - public registry block 2A (signal interrupt)
+D276000177 2B          - public registry block 2B (signal interrupt)
+D276000177 2C          - public registry block 2C (signal interrupt)
+D276000177 2D          - public registry block 2D (signal interrupt)
+D276000177 2E          - public registry block 2E (signal interrupt)
+D276000177 2F          - public registry block 2F (signal interrupt)
+
+D276000177 3_          - Free
+D276000177 4_          - Free
+D276000177 5_          - Free
+D276000177 6_          - Free
+D276000177 7_          - Free
+D276000177 8_          - Free
+D276000177 9_          - Free
+D276000177 A_          - Free
+D276000177 B_          - Free
+D276000177 C_          - Free
+D276000177 D_          - Free
+
+D276000177 E_          - public use for experimental purposes
+D276000177 E0          - Self-Assigned Experimental Applications
+D276000177 E1          - Self-Assigned Experimental Packages
+D276000177 E2          - Self-Assigned Experimental Libraries
+D276000177 E3          - Self-Assigned Experimental Domains
+
+D276000177 F_          - public use for production purposes
+D276000177 F0          - Self-Assigned Production Applications
+D276000177 F1          - Self-Assigned Production Packages
+D276000177 F2          - Self-Assigned Production Libraries
+D276000177 F3          - Self-Assigned Production Domains
+
+OpenJavaCard Package Naming
+---------------------------
+
+The package "OpenJavaCard NDEF (full plain)" has the AID "D276000177 10 021101".
+
+Its actual AID will be "D276000177 10 021101 vvvv mm" where V denotes a version and M denotes the module index.
+
+The actual AID might be "D276000177 10 021101 0001 01", which is 12 bytes long.
+
+Self-Assignment / AID Now
+-------------------------
+
+Ranges have been set aside for random public self-assignment.
+
+These ranges are split by usage type and also by experimental vs production usage so as to make them more descriptive.
+
+TODO describe assignment rules
+TODO point to assignment tools
